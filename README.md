@@ -1,16 +1,20 @@
-[![](https://img.shields.io/pypi/pyversions/pgrep.svg?longCache=True)](https://pypi.org/pypi/pgrep/)
-[![](https://img.shields.io/pypi/v/pgrep.svg?maxAge=3600)](https://pypi.org/pypi/pgrep/)
+<!--
+https://pypi.org/project/readme-generator/
+-->
+
+[![](https://img.shields.io/pypi/pyversions/pgrep.svg?longCache=True)](https://pypi.org/project/pgrep/)
+[![](https://img.shields.io/pypi/v/pgrep.svg?maxAge=3600)](https://pypi.org/project/pgrep/)
 [![Travis](https://api.travis-ci.org/looking-for-a-job/pgrep.py.svg?branch=master)](https://travis-ci.org/looking-for-a-job/pgrep.py/)
 
-#### Install
+#### Installation
 ```bash
 $ [sudo] pip install pgrep
 ```
 
 #### Functions
-function|description
+function|`__doc__`
 -|-
-`pgrep.pgrep(pattern)`|return list with process IDs which matches the selection criteria
+`pgrep.pgrep(pattern)` |return a list with process IDs which matches the selection criteria
 
 #### Examples
 ```python
@@ -25,4 +29,6 @@ function|description
 []
 ```
 
-<p align="center"><a href="https://pypi.org/project/readme-md/">readme-md</a> - README.md generator</p>
+<p align="center">
+    <a href="https://pypi.org/project/readme-generator/">readme-generator</a>
+</p>
