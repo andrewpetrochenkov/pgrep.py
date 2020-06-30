@@ -1,9 +1,9 @@
-#!/usr/bin/env python
+__all__ = ['pgrep']
+
+
 import os
-import public
 
 
-@public.add
 def pgrep(pattern):
     """return a list with process IDs which matches the selection criteria"""
     args = ["pgrep", str(pattern)]
